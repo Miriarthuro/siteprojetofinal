@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    background-color: grey;
+}
+
+.logo {
+    flex: 1;
+    text-align: left;
+    font-size: 24px;
+    margin-left: 10%;
+    font-family: "Sour Gummy", sans-serif;
+    color: black;
+}
+
+.menu {
+    flex: 2;
+    text-align: right;
+    padding: 20px;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px;
+}
+
+.menu a:hover {
+    border-top: 4px solid white;
+}
+
+#botao {
+    background-color: black;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 7px;
+    margin-right: 10px;
+}
+
+#botao:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    background-color: white;
+}
+
+.linha-cabecalho {
+    flex: 1;
+    margin-left: 10%;
+}
+
+.linha-cabecalho h2 {
+    font-weight: 900;
+    font-size: 20px;
+    color: black;
+    margin: 0;
+}
+
+.linha-cabecalho p {
+    color: black;
+}
+
+.imgcabecalho {
+    margin-right: 10%;
+    flex: 1;
+    text-align: center;
+}
+
+.botao-contato {
+    background-color: black;
+    padding: 20px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.info {
+    margin-top: 80px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    padding: 5px;
+    display: inline-block;
+}
+
+.info h2 {
+    font-size: 50px;
+    margin: 0;
+    font-weight: bold;
+    color: black;
+    font-family: "Pacifico", serif;
+}
+
+.card {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.card:hover {
+    background-color: black;
+    color: white;
+}
+
+.card:hover img {
+    display: none;
+}
+
+.texto-oculto {
+    display: none;
+}
+
+.card:hover .card-text {
+    display: none;
+}
+
+.card:hover .texto-oculto {
+    display: block;
+}
+
+footer {
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.footer-contato h2, 
+.footer-hora h2, 
+.footer-mídia h2, 
+.footer-mapa h2 {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.footer-contato, 
+.footer-hora, 
+.footer-mídia, 
+.footer-mapa {
+    font-size: 16px;
+}
+
+.footer-button {
+    background-color: grey;
+    padding: 1px 0;
+}
